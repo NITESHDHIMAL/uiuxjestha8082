@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+
+    <style>
+        .box{
+            border: 2px solid;
+            width: 800px;
+            position: relative;
+        }
+        .minibox{
+            height: 150px;
+            width: 150px;
+            border: 2px solid red;
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+        }
+        #static{
+            margin-top: 3rem ;
+            background-color: lightsalmon;
+            position: static;
+        }
+        #relative{
+            position: relative;
+            top: 3rem;
+            background-color: lightblue;
+        }
+        #absolute {
+            position:absolute;
+            background-color: lightgoldenrodyellow;
+            right: 0;
+            top: 0;
+        }
+        #fixed {
+            position: fixed;
+            background-color: lightgreen;
+            right: 1rem;
+            bottom: 1rem;
+            border-radius: 50%;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: lightsteelblue;
+        }
+
+
+</style>
+</head>
+
+<body>
+
+
+    <!-- <h1>Css Position Types:</h1>
+    <ol>
+        <li>static(default)</li>
+        <li>relative(own position)</li>
+        <li>absolute(relative to the parent element)</li>
+        <li>fixed(relative to the viewport)</li>
+        <li>sticky(scroll)</li>
+    </ol> -->
+
+    <!-- select same code one time => ctrl + d  -->
+
+    <div class="box">
+        <div class="minibox" id="static">static</div>
+        <div class="minibox" id="relative">relative</div>
+        <div class="minibox" id="absolute">absolute</div>
+        <div class="minibox" id="fixed">fixed</div>
+    </div> 
+    <div class="minibox" id="sticky">sticky</div>
+
+    
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore fugit nobis? Nisi, dolorem. Veritatis consequatur sequi tenetur amet in inventore fugiat iste nostrum nam magnam dolore, porro veniam cumque.
+</body> 
+</html>
