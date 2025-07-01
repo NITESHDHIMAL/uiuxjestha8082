@@ -14,7 +14,7 @@
             /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
             animation-name:moveBox;
-            animation-duration: 2s;
+            animation-duration: 5s;
             animation-iteration-count: infinite;
 
 
@@ -39,22 +39,26 @@
             }
             25%{
                 background-color: gray;
+                margin-left: 500px;
+                margin-top: 0;
             }
             50%{
-                background-color: gray;
+                background-color: yellow;
+                margin-left: 500px;
+                margin-top: 500px;
+            }
+            75%{
+                background-color: green;
+                margin-top: 500px;
+                margin-left: 0;
             }
             100%{
                 background-color: brown;
-                margin-top: 200px;
             }
         }
-
-
     </style>
 </head>
-<body>
-
-    <div class="box"></div>
-    
+<body> 
+    <div class="box"></div> 
 </body>
 </html>
